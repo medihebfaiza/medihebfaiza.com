@@ -32,7 +32,6 @@ const config: GatsbyConfig = {
 };
 
 //TO DELETE WHEN SETTING DOMAIN NAME
-//AND SHOULD USE THIS DEPLOY SCRIPT : "deploy": "gatsby build && gh-pages -d public -b main"
 //SEE : https://www.gatsbyjs.com/docs/how-to/previews-deploys-hosting/how-gatsby-works-with-github-pages/
 module.exports = {
   pathPrefix: "/medihebfaiza.com",
