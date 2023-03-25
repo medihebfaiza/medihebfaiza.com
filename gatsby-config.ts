@@ -28,7 +28,16 @@ const config: GatsbyConfig = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  },
+  {
+    resolve: "gatsby-plugin-react-svg",
+    options: {
+        rule: {
+            include: `./src/images/`,
+        },
+    },
+  },
+]
 };
 
 //TO DELETE WHEN SETTING DOMAIN NAME

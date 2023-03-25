@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    padding: 40px 0px;
+    font-weight: 800;
+    font-size: large;
+}
+
+.brand>a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu>a{
+    padding: 40px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.active{
+    font-weight: 800;
+}
+
+.menu>a:hover{
+    color: white;
+    background-color: black;
+}

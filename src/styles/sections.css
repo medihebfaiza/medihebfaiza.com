@@ -1,0 +1,62 @@
+/* Hero */
+.hero-section {
+    padding: 40vh 2.5rem;
+}
+
+.hero-title {
+    font-weight: 800;
+    font-size: xxx-large;
+}
+
+.hero-description {
+    font-size: xx-large;
+    margin-top: 0;
+}
+
+/* About */
+.about-section {
+    color: white;
+    background-color: #1A1A40;
+}
+
+.about-img {
+    filter: grayscale(100%);
+    border-radius: 100%;
+}
+
+/* Skills */
+.skills-list {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Experience */
+.experience-logo {
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    border: solid;
+    border-width: 6px;
+    border-color: #1A1A40;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.vertical-line {
+    border-left: 6px solid #1A1A40;
+    margin-left: 59px;
+    height: 40px;
+}
